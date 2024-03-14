@@ -9,7 +9,9 @@ import Foundation
 
 public class WoyRtcEngine {
     
-    func startEngine() {
+    public init() { }
+    
+    public func startEngine() {
         print("Hello engine started")
     }
 }

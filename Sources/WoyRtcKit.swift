@@ -5,7 +5,7 @@ import HiddenSources
 
 public class WoyRtcKit {
     
-    public var engine = WoyRtcEngine()
+    public var engine: WoyRtcEngine = WoyRtcEngine()
     
     public func start() {
         engine.startEngine()
